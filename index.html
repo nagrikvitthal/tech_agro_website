@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="mr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173d27">
+  <meta name="description" content="Tech Agro — ट्रॅक्टर भाड्याने आणि शेतीची कामे. फोन करून बुकिंग करा.">
+  <title>Tech Agro Company – Shivchandra Moli | ट्रॅक्टर सेवा</title>
+  <style>
+    :root { --green:#173d27; --leaf:#2f7042; --lime:#d8ed9a; --cream:#faf8ef; --ink:#20251e; }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background:var(--cream); font-family:system-ui,"Noto Sans Devanagari",sans-serif; }
+    header { background:var(--green); color:white; padding:20px max(6vw,22px); display:flex; align-items:center; justify-content:space-between; gap:16px; }
+    .brand { font-size:1.45rem; font-weight:800; letter-spacing:.02em; }
+    header a { color:white; text-decoration:none; border:1px solid #ffffff80; padding:10px 16px; border-radius:999px; }
+    .header-actions { display:flex; align-items:center; gap:10px; flex-wrap:wrap; justify-content:flex-end; }
+    .hero { min-height:520px; padding:75px max(8vw,24px); display:grid; grid-template-columns:1.1fr .9fr; align-items:center; gap:40px; color:white; background:linear-gradient(90deg,#102d1eeF 0%,#173d27d9 48%,#173d2733 100%),url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1800&q=85') center/cover; }
+    .eyebrow { color:var(--lime); font-weight:700; }
+    h1 { font-size:clamp(2.5rem,6vw,4.8rem); line-height:1.12; margin:12px 0 18px; }
+    .hero p { max-width:560px; font-size:1.15rem; line-height:1.8; color:#f1f5ed; }
+    .actions { display:flex; gap:12px; flex-wrap:wrap; margin-top:26px; }
+    .button { display:inline-block; padding:14px 22px; border-radius:10px; text-decoration:none; font-weight:750; }
+    .primary { background:var(--lime); color:var(--green); }
+    .secondary { border:1px solid #ffffffaa; color:white; }
+    .tractor { position:relative; justify-self:center; width:min(100%,330px); aspect-ratio:1; border-radius:50%; display:grid; place-items:center; background:#ffffff17; border:1px solid #ffffff44; font-size:9rem; }
+    .tractor-contact { position:absolute; left:50%; bottom:16px; transform:translateX(-50%); white-space:nowrap; border-radius:999px; padding:9px 14px; background:var(--lime); color:var(--green); font-size:.92rem; font-weight:800; text-decoration:none; box-shadow:0 4px 16px #0004; }
+    section { padding:68px max(8vw,24px); }
+    .services { background:white; }
+    h2 { color:var(--green); font-size:clamp(1.8rem,3vw,2.6rem); margin:0 0 12px; }
+    .intro { color:#62685e; line-height:1.7; }
+    .cards { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; margin-top:30px; }
+    .card { padding:24px; background:var(--cream); border-radius:16px; border:1px solid #e9e6d9; }
+    .icon { font-size:2rem; }
+    .card h3 { color:var(--green); margin:12px 0 8px; }
+    .card p { color:#62685e; line-height:1.65; margin:0; }
+    .price { display:inline-block; margin-top:14px; color:var(--leaf); font-size:1.15rem; font-weight:800; }
+    .contact { background:var(--green); color:white; display:flex; align-items:center; justify-content:space-between; gap:24px; }
+    .contact h2 { color:white; }
+    .contact p { color:#e1ebdf; line-height:1.7; }
+    .booking-note { margin-top:14px; padding:14px 16px; border-left:3px solid var(--lime); background:#ffffff12; border-radius:0 10px 10px 0; color:#f0f5ec; line-height:1.65; }
+    footer { padding:18px 24px; text-align:center; color:#697267; font-size:.9rem; }
+    @media(max-width:700px) { header { padding:16px 20px; } .hero { min-height:auto; padding-top:58px; padding-bottom:58px; grid-template-columns:1fr; } .tractor { display:none; } .cards { grid-template-columns:1fr; } section { padding:52px 22px; } .contact { align-items:flex-start; flex-direction:column; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">🌱 Tech Agro Company <span style="font-size:.85rem;font-weight:500;color:#d8ed9a">· Shivchandra Moli</span></div>
+    <div class="header-actions">
+      <a href="tel:9022053413">📞 90220 53413</a>
+      <a href="https://wa.me/919545717010?text=Namaskar%2C%20mala%20tractor%20sevechi%20chaukashi%20karaychi%20ahe." target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div>
+        <div class="eyebrow">आमच्याकडे सर्व प्रकारची कामे योग्य दरात करून मिळतील</div>
+        <h1>तुमच्या शेतीची कामे,<br>आता सोपी आणि जलद.</h1>
+        <p>नांगरणीपासून शेत तयार करण्यापर्यंत—तुमच्या गरजेनुसार ट्रॅक्टर सेवा मिळवा. बुकिंगसाठी आजच फोन करा.</p>
+        <div class="actions">
+          <a class="button primary" href="tel:9022053413">आत्ताच फोन करा</a>
+          <a class="button secondary" href="#services">सेवा पाहा</a>
+        </div>
+      </div>
+      <div class="tractor" aria-label="ट्रॅक्टर संपर्क">
+        🚜
+        <a class="tractor-contact" href="tel:9545717010">गणेश नागरीक · 95457 17010</a>
+      </div>
+    </section>
+    <section class="services" id="services">
+      <h2>ट्रॅक्टर सेवा आणि भाडे</h2>
+      <p class="intro">तुमच्या शेतीच्या कामासाठी उपलब्ध सेवा आणि दर.</p>
+      <div class="cards">
+        <article class="card"><div class="icon">🌾</div><h3>नांगरणी</h3><p>पेरणीपूर्वी जमीन तयार करण्यासाठी.</p><span class="price">₹700 / तास</span></article>
+        <article class="card"><div class="icon">🚜</div><h3>वखर</h3><p>शेतजमीन भुसभुशीत करण्यासाठी.</p><span class="price">₹800 / एकर</span></article>
+        <article class="card"><div class="icon">⚙️</div><h3>रोटाव्हेटर</h3><p>जमीन मशागतीसाठी रोटाव्हेटर सेवा.</p><span class="price">₹1,000 / एकर</span></article>
+        <article class="card"><div class="icon">🌱</div><h3>पेरणी</h3><p>पेरणीच्या कामासाठी ट्रॅक्टर सेवा.</p><span class="price">₹800 / बॅग</span></article>
+        <article class="card"><div class="icon">🛻</div><h3>ट्रॉली</h3><p>मालवाहतुकीसाठी ट्रॉली सेवा.</p><span class="price">₹600 / फेरी</span></article>
+        <article class="card"><div class="icon">🌿</div><h3>हळद लागवड</h3><p>हळद लागवडीसाठी शेतकामाची सेवा.</p><span class="price">₹3,000 / एकर</span></article>
+        <article class="card"><div class="icon">🫚</div><h3>आले लागवड</h3><p>आले लागवडीसाठी शेतकामाची सेवा.</p><span class="price">₹3,000 / एकर</span></article>
+        <article class="card"><div class="icon">🪨</div><h3>मुरूम वाहतूक</h3><p>ट्रॉलीने मुरूम वाहतूक.</p><span class="price">₹900 / ट्रॉली</span></article>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div><h2>बुकिंगसाठी संपर्क करा</h2><p>मालक: अविनाश नागरीक<br>कामाची माहिती द्या आणि ट्रॅक्टर सेवेसाठी चौकशी करा.</p>
+        <div class="booking-note">बुकिंग करताना सेवा, गाव/शेताचं ठिकाण आणि कामाची तारीख कळवा. आम्ही उपलब्धता व दराबद्दल संपर्क करू.</div>
+      </div>
+      <div class="actions">
+        <a class="button primary" href="tel:9022053413">📞 90220 53413</a>
+        <a class="button secondary" href="https://wa.me/919545717010?text=Namaskar%2C%20mala%20tractor%20sevechi%20chaukashi%20karaychi%20ahe." target="_blank" rel="noopener">WhatsApp वर विचारा</a>
+      </div>
+    </section>
+  </main>
+  <footer>© 2026 Tech Agro Company · Shivchandra Moli · शेतीला प्रगतीची जोड</footer>
+</body>
+</html>
